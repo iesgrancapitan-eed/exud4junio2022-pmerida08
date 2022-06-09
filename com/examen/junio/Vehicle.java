@@ -30,7 +30,7 @@ public class Vehicle {
 
   /**
    * Cambia la velocidad del vehiculo
-   * @param speed
+   * @param speed Velocidad del vehiculo
    */
   public void setSpeed(int speed) {
     this.speed = speed;
@@ -45,7 +45,7 @@ public class Vehicle {
 
   /**
    * Cambia la marcha del vehiculo
-   * @param gear
+   * @param gear Marcha del vehiculo
    */
   public void setGear(int gear) {
     this.gear = gear;
@@ -61,7 +61,7 @@ public class Vehicle {
 
   /**
    * Cambia la marcha del vehiculo
-   * @param newGear
+   * @param newGear Nueva Marcha
    */
   public void changeGear(int newGear) {     
       gear = newGear;
@@ -69,7 +69,7 @@ public class Vehicle {
 
   /**
    * Acelera el vehiculo
-   * @param increment
+   * @param increment Incremento de velocidad
    */
   public void speedUp(int increment) {
       speed = speed + increment;
@@ -77,7 +77,7 @@ public class Vehicle {
 
   /**
    * Frena el vehiculo
-   * @param decrement
+   * @param decrement Decremento de velocidad
    */
   public void applyBrakes(int decrement) {     
       speed = speed - decrement;
